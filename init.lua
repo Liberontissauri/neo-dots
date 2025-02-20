@@ -108,6 +108,7 @@ require('lazy').setup({
   require 'plugins/mini-nvim',
   require 'plugins/treesitter',
   require 'plugins/oil',
+  require 'plugins/nvim-dev-container',
 }, {
   ui = {
     icons = vim.g.have_nerd_font and {} or {
