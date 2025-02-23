@@ -80,6 +80,7 @@ require('lazy').setup({
   require 'plugins/git-signs',
   require 'plugins/which-key',
   require 'plugins/telescope',
+  require 'plugins/typescript-tools',
 
   -- LSP Plugins
   {
